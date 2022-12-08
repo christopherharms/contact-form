@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+    </header>
+    <main>
+        <form action="/" method="get">
+            <section>
+                <h2>How can we help you?</h2>
+                <ul>
+                    <li>
+                        <label for="username">Your Name</label>
+                        <input type="text" name="user-name" id="username" required>
+                    </li>
+                    <li>
+                        <label for="useremail">Your E-mail Address</label>
+                        <input type="email" name="user-email" id="useremail" required>
+                    </li>
+                    <li>
+                        <label for="userphone">Your Phone Number</label>
+                        <input type="tel" name="user-phone" id="userphone" required>
+                    </li>
+                    <li>
+                        <label for="usermessage">Your Message</label>
+                        <textarea name="user-message" id="usermessage" rows="8" required></textarea>
+                    </li>
+                    <li>
+                        <label for="referredby">How did you find us?</label>
+                        <select name="referred-by" id="refferedby" required>
+                            <option value="web-search">Web Search</option>
+                        </select>
+                    </li>
+                </ul>
+            </section>
+            <section>
+                <h2>How should we reply?</h2>
+                <ul>
+                    <li class="form-control-inline">
+                        <input type="radio" name="contact-by" id="contact-phone" value="phone" required>
+                        <label for="contact-phone">Call me</label>
+                    </li>
+                    <li class="form-control-inline">
+                        <input type="radio" name="contact-by" id="contact-email" value="email" required>
+                        <label for="contact-email">Send me an email</label>
+                    </li>
+                    <li class="form-control-inline">
+                        <input type="radio" name="contact-by" id="contact-none" value="none" required>
+                        <label for="contact-none">Don't reply</label>
+                    </li>
+                </ul>
+            </section>
+            <section class="form-control-inline" id="terms">
+                <input type="checkbox" name="accept-terms" id="acceptterms">
+                <label for="agreeterms">Accept Terms</label>
+            </section>
+            <section id="buttons">
+                <button type="reset" id="clear">Clear</button>
+                <button type="submit" id="submit">Submit</button>
+            </section>
+        </form>
+    </main>
+    
+</body>
+</html>

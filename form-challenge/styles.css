@@ -1,0 +1,94 @@
+body {
+    background-color: rgb(236, 252, 253);
+    font-family: sans-serif;
+    color: rgb(58, 58, 58);
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    background-color: aliceblue;
+    width: 40rem;
+    margin: 1rem auto;
+    padding: 1rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .2);
+    border-radius: 6px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+label {
+    display: block;
+    width: 100%;
+    margin: .5rem auto;
+}
+
+input,
+textarea,
+select {
+    display: block;
+    width: 100%;
+    border: 1px solid rgb(154, 154, 154);
+    border-radius: 4px;
+    font: inherit;
+    box-sizing: border-box;
+}
+
+input:focus,
+textarea:focus {
+    background-color: rgb(199, 233, 244);
+}
+
+.form-control-inline {
+    display: flex;
+    justify-content: center;
+}
+
+.form-control-inline input {
+    width: auto;
+    margin: auto .5rem auto auto;
+}
+
+.form-control-inline label {
+    margin: 0;
+}
+
+#terms {
+    margin: 1.5rem .5rem 1.5rem 0;
+}
+
+#buttons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+button {
+    padding: 0.2rem 1.2rem;
+    border-radius: 4px;
+    margin: .2rem;
+}
+
+#clear {
+    background-color: aliceblue;
+    color: rgb(34, 12, 99);
+    border-color: rgb(34, 12, 99);
+}
+
+#clear:hover {
+    background-color: rgb(183, 221, 255);
+}
+
+#submit {
+    background-color: rgb(34, 12, 99);
+    color: white;
+}
+
+#submit:hover {
+    background-color: rgb(57, 41, 106);
+}
